@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon';
-// import { AllBooks } from './modules/AllBooks.js';
-import { addBook } from './modules/addBook.js';
-import { removeBook } from './modules/removeBook.js';
+// import { AllBooks } from './AllBooks.js';
+import { addBook } from './addBook.js';
+import { removeBook } from './removeBook.js';
 
 const mybooks = new AllBooks();
 
