@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 4px solid black;
+  font-size: 25px;
+}
+
+header p {
+  display: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 4px solid black;
+  font-size: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#list {
+  position: relative;
+}
+
+#newBook {
+  position: relative;
+}
+
+#newBook::after {
+  content: '';
+  position: absolute;
+  transform: rotate(90deg);
+  background-color: black;
+  width: 3rem;
+  height: 2px;
+  left: 100px;
+  top: 10px;
+}
+
+#list::after {
+  content: '';
+  position: absolute;
+  transform: rotate(90deg);
+  background-color: black;
+  width: 3rem;
+  height: 2px;
+  left: 35px;
+  top: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+h1 {
+  display: none;
+  font-weight: 600;
+}
+
+h3 {
+  align-self: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  width: max-content;
+}
+
+#allBooks {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.book-store {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button {
+  padding: 4px;
+  align-self: flex-end;
+  border: 4px solid #111;
+  background-color: #fff;
+  box-shadow: 4px 3px 1px 0 rgb(23, 22, 22);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+button:hover {
+  box-shadow: 4px 3px 1px 0 red;
+}
+
+#addBook {
+  width: 30%;
+}
+
+#addBook:hover {
+  box-shadow: 4px 3px 1px 0 rgb(53, 222, 37);
+}
+
+.addBook {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: 4px solid black;
+  padding: 5px;
+  width: 300px;
+}
+
+table {
+  display: none;
+  border: 4px solid black;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  overflow: auto;
+  max-height: 400px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: gray;
+}
+
+#contact {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+@media screen and (width < 409px) {
+  #newBook::after {
+    content: '';
+    position: absolute;
+    transform: rotate(90deg);
+    background-color: black;
+    width: 3rem;
+    height: 2px;
+    left: 60px;
+    top: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 4px solid black;
+    font-size: 25px;
+  }
+
+  header p {
+    display: block;
+  }
+
+  table {
+    display: none;
+    border: 4px solid black;
+    margin-top: 20px;
+    width: 90%;
+    position: relative;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 400px;
+  }
+
+  input {
+    width: 500px;
+    padding: 10px;
+  }
+}
