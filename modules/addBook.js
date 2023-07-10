@@ -1,4 +1,4 @@
-export const addBook = (bookDetails, title, author) => {
+const addBook = (bookDetails, title, author) => {
   const book = { title, author };
   bookDetails.push(book);
   saveBooksToStorage(bookDetails);
@@ -7,3 +7,6 @@ export const addBook = (bookDetails, title, author) => {
 const saveBooksToStorage = (bookDetails) => {
   localStorage.setItem('booksData', JSON.stringify(bookDetails));
 };
+
+export default addBook;
+
