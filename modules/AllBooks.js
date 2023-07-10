@@ -1,5 +1,5 @@
-import { DateTime } from 'luxon.js';
-import { AllBooks } from './modules/allBooks.js';
+import { DateTime } from 'luxon';
+import { AllBooks } from './modules/AllBooks.js';
 import { addBook } from './modules/addBook.js';
 // import { removeBook } from './modules/removeBook.js';
 
