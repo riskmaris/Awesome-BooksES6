@@ -16,7 +16,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 Awesome Book <a name="about-project"></a>
@@ -44,7 +43,7 @@ A Awesome Books is a live book store where anyone can add and remove the books.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo  Coming soon....
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
