@@ -1,4 +1,5 @@
-import {AllBooks} from '../modules/allBooks.js';
+// import {AllBooks} from '../modules/allBooks.js';
+import AllBooks from '../modules/allBooks.js';
 import updateTime from '../modules/updateTime.js';
 
 const mybooks = new AllBooks();
