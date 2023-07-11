@@ -1,4 +1,4 @@
-import AllBooks from '../index.js';
+import AllBooks from '../src/index.js';
 import updateTime from './updateTime.js';
 
 const mybooks = new AllBooks();
