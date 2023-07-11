@@ -1,4 +1,4 @@
-// import {AllBooks} from '../modules/allBooks.js';
+/*eslint-disable import/no-unresolved*/
 import AllBooks from '../modules/allBooks.js';
 import updateTime from '../modules/updateTime.js';
 
