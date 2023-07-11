@@ -1,4 +1,4 @@
-export class AllBooks {
+export default class AllBooks {
   constructor() {
     this.loadBooksFromStorage();
   }

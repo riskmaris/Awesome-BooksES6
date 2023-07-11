@@ -1,4 +1,3 @@
-import addBook from './addBook.js';
 import AllBooks from '../index.js';
 import updateTime from './updateTime.js';
 
@@ -9,7 +8,7 @@ document.getElementById('addBook').addEventListener('click', () => {
   const author = document.getElementById('author').value;
 
   if (title !== '' && author !== '') {
-    addBook(mybooks.bookDetails, title, author);
+    mybooks.addBook(mybooks.bookDetails, title, author);
     document.getElementById('title').value = '';
     document.getElementById('author').value = '';
   }
