@@ -1,9 +1,9 @@
-import { DateTime } from 'luxon';
+import { DateTime } from './luxon.js';
 
-function updateTime() {
+const updateTime = () => {
   const currentDate = DateTime.now();
-  const dateTimeString = currentDate.toLocaleString(DateTime.DATETIME_MED);
+  const dateTimeString = currentDate.toLocaleString(DateTime.DATETIME_SHORT_WITH_SECONDS);
   document.getElementById('time').textContent = dateTimeString;
-}
+  };
 
 export default updateTime;
